@@ -8,7 +8,7 @@ MouseUltrasound::MouseUltrasound(uint8_t trig_pin, uint8_t echo_pin) {
     pinMode(echo_pin, INPUT);
 }
 
-unsigned long MouseUltrasound::get_distance(void) {
+unsigned long MouseUltrasound::get_distance_mm(void) {
     _trigger();
     unsigned long us = pulseIn(echo_pin, HIGH);
     unsigned long mm = (us/2) * SPEED_OF_SOUND_MM_US;

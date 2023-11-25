@@ -11,7 +11,7 @@ void setup() {
 }
 
 void loop() {
-    unsigned long mm_f = ultrasound_f.get_distance();
+    unsigned long mm_f = ultrasound_f.get_distance_mm();
     Serial.print("ultrasound f: ");
     Serial.println(mm_f);
 
