@@ -4,7 +4,7 @@
 #include <Arduino.h>
 
 // speed of sound in mm per us:
-#define SPEED_OF_SOUND_MM_US   0.3
+#define SPEED_OF_SOUND_MM_US   0.343
 
 
 class MouseUltrasound {

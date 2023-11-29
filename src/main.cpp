@@ -4,6 +4,7 @@
 
 
 MouseUltrasound ultrasound_f(2, 4);
+//MouseUltrasound ultrasound_r(...);
 
 
 void setup() {
